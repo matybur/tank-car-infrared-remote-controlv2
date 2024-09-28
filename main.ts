@@ -48,33 +48,33 @@ BitIR.IR_callbackUserV2(function (message) {
 basic.forever(function () {
     if (ir == 1) {
         ir = 0
-        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Run, 100)
-        basic.pause(300)
+        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Run, 200)
+        basic.pause(500)
         mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
     } else if (ir == 2) {
         ir = 0
-        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Back, 100)
-        basic.pause(300)
+        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Back, 200)
+        basic.pause(500)
         mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
     } else if (ir == 3) {
         ir = 0
-        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Left, 100)
-        basic.pause(300)
+        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Left, 150)
+        basic.pause(500)
         mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
     } else if (ir == 4) {
         ir = 0
-        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Right, 100)
-        basic.pause(300)
+        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_Right, 150)
+        basic.pause(500)
         mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
     } else if (ir == 5) {
         ir = 0
-        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_SpinLeft, 100)
-        basic.pause(300)
+        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_SpinLeft, 150)
+        basic.pause(500)
         mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
     } else if (ir == 6) {
         ir = 0
-        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_SpinRight, 100)
-        basic.pause(300)
+        mbit_Robot.CarCtrlSpeed(mbit_Robot.CarState.Car_SpinRight, 150)
+        basic.pause(500)
         mbit_Robot.CarCtrl(mbit_Robot.CarState.Car_Stop)
     } else if (ir == 7) {
         basic.showLeds(`
